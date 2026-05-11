@@ -4,26 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>github shared project</title>
     <link href='https://unpkg.com' rel='stylesheet'>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="public/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="Doob">Doob</a>
-            <a href="Home.">Home.</a>
-            <a href="AboutUs">AboutUs.</a>
-            <a href="Portfolio">Portfolio.</a>
-            <a href="Blog">Blog.</a>
-            <a href="contact Us">Contact Us.</a>
-            <button><a href="contact Us.">Contact Us</a></button>
-        </nav>
+    <header class="theheader">
+        <div class="leftheaderdiv">
+            <div class="thelogo">
+                <a href="" class="logotitle"><img src="public/images/logo.svg" alt="" class="logo"></a>
+            </div>
+            <nav class="navbar">
+                <a href="">Home.</a>
+                <a href="">About Us.</a>
+                <a href="">Portfolio.</a>
+                <a href="">Blog.</a>
+                <a href="">Contact Us.</a>
+            </nav>
+        </div>
+        <div class="contactusdiv">
+            <a href="" class="contactus">Contact Us</a>
+        </div>
+
     </header>
-    <main>
+    <main class="themain">
         <!-- !first section -->
         <section class="firstsection">
             <!-- todo/ left div -->
@@ -64,7 +77,7 @@
             <!-- todo/ div 2 -->
             <div class="scndsectdivbordered">
                 <div>
-                    <img src="" alt="">
+                    <img src="public/images/service-icon1.svg" alt="srvc1">
                 </div>
                 <h1>
                     Web & Graphic Design
@@ -77,7 +90,7 @@
             <!-- todo/ div 3 -->
             <div class="scndsectdivbordered">
                 <div>
-                    <img src="" alt="">
+                    <img src="public/images/service-icon2.svg" alt="srvc2">
                 </div>
                 <h1>
                     Web & App
@@ -103,17 +116,17 @@
             <!-- todo/ the forum -->
             <div class="theforum">
                 <!-- ?/first row -->
-                <div>
-                    <input type="email" placeholder="Your email">
-                    <input type="text" placeholder="Subject">
+                <div class="forumrow">
+                    <input type="email" placeholder="Your email" class="textinput">
+                    <input type="text" placeholder="Subject" class="textinput">
                 </div>
                 <!-- ?/second part -->
-                <div>
-                    <textarea name="msgbox" class="textarea" placeholder="Message here..."></textarea>
+                <div class="forumrow">
+                    <textarea name="msgbox" class="textinput" placeholder="Message here..."></textarea>
                 </div>
                 <!-- ?/the red button -->
-                <div>
-                    <a href="#" class="redlink"></a>
+                <div class="sendmessagediv">
+                    <a href="#" class="redlink">Send Message</a>
                 </div>
             </div>
 
@@ -135,9 +148,9 @@
         <p>;&copy 2026 - githubproject All Rights Reserved</p>
         <!-- todo/ socials icons -->
         <div>
-            <i class="bxl bx-facebook"></i>
-            <i class="bxl bx-twitter"></i>
-            <i class="bxl bx-github"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-github"></i>
         </div>
     </footer>
 

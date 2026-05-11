@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    padding: 10px 200px;
+}
+
+/* !/header */
+.theheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.leftheaderdiv {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logotitle {
+    /* background-color: aqua; */
+    padding-right: 100px;
+}
+
+.logo {
+    width: 90px;
+}
+
+.sidebuttondiv {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    /* background-color: aqua; */
+
+}
+
+.navbar a {
+    font-weight: 600;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(49, 69, 132);
+}
+
+.navbar a:hover {
+    color: rgb(255, 57, 70);
+}
+
+.contactus {
+    background-color: white;
+    color: rgb(255, 57, 70);
+    padding: 10px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.134);
+    font-weight: 600;
+}
+
+/*!/main  */
+/* todo/ first section */
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+
+/* ?/left div */
+.frstsecrleftdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightupperdiv {}
+
+.rightupperdiv h1 {
+    color: rgb(49, 69, 132);
+    font-weight: 600;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.rightupperdiv p {
+    color: rgb(99, 112, 127);
+    font-weight: 350;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.rightbottomdiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.rightbottomdiv a {
+    text-decoration: none;
+}
+
+.redlink {
+    background-color: rgb(255, 57, 70);
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.089);
+}
+
+.bottomdivregularlink {
+    color: rgb(49, 69, 132);
+    font-weight: 600;
+    font-size: medium;
+}
+
+
+/* ?/right div */
+.rightdivimg {
+    width: 500px;
+}
+
+/* todo/ second section */
+.secondsection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1;
+    /* background-color: aqua; */
+}
+
+.scndsectdiv {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+    margin-right: 30px;
+}
+
+
+
+.scndsectdiv h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(49, 69, 132);
+}
+
+/* ?/ divs with imgs */
+
+.scndsectdivbordered {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.134);
+    padding: 40px 20px;
+}
+
+.scndsectdivbordered img {
+    margin-bottom: 20px;
+}
+
+.scndsectdivbordered p {
+    color: rgb(99, 112, 127);
+    font-weight: 350;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.scndsectdivbordered h1 {
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(49, 69, 132);
+}
+
+/* !/ third section */
+.thirdsectiontiles {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* ?/titles */
+.thirdsectiontiles {
+    margin: 40px 0px;
+    /* background-color: aqua; */
+}
+
+.thirdsectiontiles h3 {
+    font-size: small;
+    font-weight: 700;
+    color: rgb(255, 57, 70);
+}
+
+.thirdsectiontiles h1 {
+    font-weight: 700;
+    color: rgb(49, 69, 132);
+}
+
+/* ?/ input forms */
+.theforum {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.forumrow {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.textinput {
+    background-color: rgb(244, 250, 254);
+    outline: none;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.forumrow textarea {
+    resize: none;
+}
+
+.forumrow ::placeholder {
+    color: rgb(49, 69, 132);
+}
+/* ?/the button */
+.sendmessagediv {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
