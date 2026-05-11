@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.thefooter {
+    background-color: rgb(49, 69, 132);
+    color: white;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.above{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: sans-serif ; 
+}
+.linkfouter{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.linkfouter a{
+    /* display: flex; */
+text-decoration: none;
+color: white;
+
+}
+.iconfouter{
+    display: flex;
+    gap: 20px;
+}
+.iconfouter i{
+    font-size: 40px;
+    margin-top: 20px;
+     gap: 60px; 
+    display: flex;
+    /* flex-direction: row; */
+}
+
